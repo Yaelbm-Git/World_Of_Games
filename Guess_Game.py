@@ -5,6 +5,7 @@ def generate_number(diff):
     return secret_number
 
 def get_guess_from_user(diff):
+    # you can put the print message into the input
     print("Please guess a number between 1 to", diff, end = '')
     user_guess = input(": ")
     if not user_guess.isdigit():
