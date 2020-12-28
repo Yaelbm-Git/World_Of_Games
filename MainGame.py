@@ -1,7 +1,6 @@
-from Live import welcome, load_game
+from Live import Live
 
+live = Live()
 
-
-msg = welcome()
-print(msg)
-load_game()
+print(live.welcome())
+live.load_game()
